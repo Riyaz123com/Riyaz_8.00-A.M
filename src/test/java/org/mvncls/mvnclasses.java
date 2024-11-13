@@ -26,9 +26,8 @@ public class mvnclasses extends baseclass{
 		loginpagee lo=new loginpagee();
 		
 		
-//		      WebElement txt = lo.getTxt();		           				           
-//	 	WebElement txt = driver.findElement(By.id("email"));
-//	 	javscr(lo.getTxt(), "riyaz");	 	 
+		      	           				           
+	 	javscr(lo.getTxt(), "riyaz");	 	 
 	 	
 	 	
 	 	
