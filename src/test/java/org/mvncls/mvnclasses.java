@@ -30,7 +30,7 @@ public class mvnclasses extends baseclass{
 	 	javscr(lo.getTxt(), "riyaz");	 	 
 	 	
 	 	
-	 	
+	 	sendkeys(lo.getPass(), "charu");
 		
 //		WebElement pss = driver.findElement(By.id("pass"));
 
