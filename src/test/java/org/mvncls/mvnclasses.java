@@ -26,6 +26,12 @@ public class mvnclasses extends baseclass{
 		loginpagee lo=new loginpagee();
 		
 		
+		System.out.println("main1");	
+		  System.out.println("main2");
+		  System.out.println("main3");
+		  System.out.println("main4");
+		
+		
 		      	           				           
 	 	javscr(lo.getTxt(), "riyaz");	 	 
 	 	
@@ -40,9 +46,9 @@ public class mvnclasses extends baseclass{
 //		  WebElement clk = driver.findElement(By.name("login"));
 //	 	clkk(lo.getLgin());
 //		   
-//		  WebElement scrll = driver.findElement(By.xpath("//a[text()='Help']"));
+		  WebElement scrll = driver.findElement(By.xpath("//a[text()='Help']"));
 //		  scroll(scrll);
-		  
+		  scroll(scrll);
 	 	List<WebElement> crton = lo.getCrton(); 
 	 	   WebElement fh = crton.get(1);
 	 	clkk(fh);
